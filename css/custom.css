@@ -1,52 +1,66 @@
-#nav-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
+.slogan-container{
+  /*margin-top: 30px;*/
+  width: 650px;
+  height: 120px;
+  padding: 0.5rem 1rem;
+  /*margin-bottom: 72px;*/
 }
-.navbar-brand img {
-  height: 100px;
-  padding-left: 30px;
+
+.logo{
+  width: 167px;
+  height: 167px;
 }
-.navbar-nav li {
-  padding: 0 10px;
-  justify-content: space-between;
-  color: green;
+
+.logo, 
+.slogan-container{
+  margin-top: 30px;
 }
-.navbar-nav li a {
+
+.navbar-dark .nav-link{
+  color:#000 !important;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.light-icon{
+  margin-bottom: 30px;
+  display: block;
+}
+
+.light-icon .fa{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.light-icon a{
+  text-transform: uppercase;
+  color:#000;
+  display: inline-block;
+}
+
+
+.group-icon{
+  margin-top: 110px;
+  display: inline-block;
   float: right;
-  text-align: left;
-  font-weight: 600;
-  text-transform: capitalize !important;
-}
-/* #nav-bar ul li a:hover {
-  color: #c5d1cd !important;
-  font-weight: bolder;
-} */
-.navbar {
-  background: #fff;
-}
-.navbar-toggler {
-  border: none !important;
-}
-.nav-item a .nav-link {
-  color: #555 !important;
-  font-family: Merienda-Regular;
-  font-weight: bolder;
-  font-size: 20px;
-  text-transform: capitalize !important;
 }
 
-.img-fluid {
-  min-width: auto;
-  max-width: auto;
-  border: transparent;
+
+
+.top-icons{
+  display: block;
+  /*margin-top: 170px;*/
 }
 
-h5 {
-  font-weight: 600;
+.top-icons a{
+  color:#05923F;
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 22px;
 }
 
-p {
-  color: gray;
-  font-family: sans-serif;
+#wrapper{
+  width: 85%;
+  margin:auto;
 }
