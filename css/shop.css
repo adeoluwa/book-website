@@ -1,0 +1,8 @@
+/* Basic Styles */
+button {
+  margin-bottom: 3em;
+}
+button {
+  display: inline-block;
+  width: 45%; 
+}

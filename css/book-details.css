@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+  .latest-album-thumb,
+  .band-member,
+  .single-album {
+    margin-bottom: 25px;
+  }
+}
+
+.latest-album-thumb {
+  overflow: hidden;
+  background-image: url(../images/books/ready\ to\ exhale\ lead\ 1.JPG);
+  background-size: cover;
+  background-position: center center;
+  max-height: max-content;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+input{
+    width: max-content;
+}
+
+button {
+  display: inline-block;
+  width: 30%; 
+}

@@ -1,4 +1,3 @@
-
 body{
   background-color: #F7F9F8;
 }
@@ -95,3 +94,11 @@ body{
   height: auto;
 }
 
+.blog-title a{
+  color:#05923F;
+}
+
+.footer-column p a{
+  color:#05923F;
+  font-weight: bold;
+}
