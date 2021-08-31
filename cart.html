@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="./owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="row no-gutters">
+        <div class="col-md-2">
+          <div class="logo">
+            <img src="images/logo.png" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="menu-content">
+            <div class="slogan-container">
+              <img src="images/slogan.png" class="img-fluid" />
+            </div>
+            <nav class="navbar navbar-expand-sm bg-white navbar-dark">
+              <!-- Links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Publish</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="group-icon">
+            <span class="light-icon">
+              <i class="fa fa-user"></i>
+              <a href="#">Login</a>/<a href="#">Register</a>
+            </span>
+            <ul class="navbar-nav top-icons">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-shopping-cart fa-2x"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-refresh fa-2x"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-search fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- cart session -->
+
+    <div class="container">
+      <table class="table">
+        <tr>
+          <th>S/N</th>
+          <th>BOOK</th>
+          <th>PRICE</th>
+          <th>QTY</th>
+          <th>TOTAL</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>
+            <img
+              src="./images/books/the cover for cripple NEW.JPG"
+              alt=""
+              title=""
+              class="img-fluid text-center"
+              style="max-width: 120px; max-height: 110px"
+            />
+          </td>
+
+          <td class="ml-0">
+            <span>&#8358;</span><span id="unit-price">5000</span>
+          </td>
+
+          <td><input type="number" style="max-width: 70px" class="qty" /></td>
+
+          <td id="total"></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <img
+              src="./images/books/the cover for cripple NEW.JPG"
+              alt=""
+              title=""
+              class="img-fluid text-center"
+              style="max-width: 120px; max-height: 110px"
+            />
+          </td>
+
+          <td class="ml-0">
+            <span>&#8358;</span><span id="unit-price">5000</span>
+          </td>
+
+          <td><input type="number" style="max-width: 70px" class="qty" /></td>
+
+          <td id="total"></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <img
+              src="./images/books/the cover for cripple NEW.JPG"
+              alt=""
+              title=""
+              class="img-fluid text-center"
+              style="max-width: 120px; max-height: 110px"
+            />
+          </td>
+
+          <td class="ml-0">
+            <span>&#8358;</span><span id="unit-price">5000</span>
+          </td>
+
+          <td><input type="number" style="max-width: 70px" class="qty" /></td>
+
+          <td id="total"></td>
+        </tr>
+      </table>
+    </div>
+
+    <footer class="page-footer lighten-5">
+      <!-- <hr> -->
+      <div class="container text-center text-md-left border-top">
+        <div class="row mt-3">
+          <div class="col-md-2 col-lg-2 col-xl-2 footer-column border-right">
+            <p>
+              <a class="text-success" href="#">About</a>
+            </p>
+
+            <p>
+              <a class="text-success" href="#">Blog</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">FAQ</a>
+            </p>
+
+            <p>
+              <a class="text-success" href="#">Press Room</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Sign in</a>
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 footer-column border-right">
+            <p>
+              <a class="text-success" href="#">My Account</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">My Library</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Policy</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Privacy Statement</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Term of Service</a>
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 footer-column border-right">
+            <p>
+              <a class="text-success" href="#">Wallet</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Wishlist</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Contact us</a>
+            </p>
+            <p>
+              <a class="text-success" href="#">Follow us</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#">
+                <span><i class="fa fa-facebook"></i></span>
+                <span><i class="fa fa-twitter"></i></span>
+                <span><i class="fa fa-instagram"></i></span>
+                <span><i class="fa fa-linkedin"></i></span>
+              </a>
+            </p>
+          </div>
+
+          <div
+            class="
+              col-md-4 col-lg-2 col-xl-2
+              footer-column
+              border-right
+              text-success
+            "
+          >
+            <form>
+              <input
+                type="email"
+                placeholder="Your Email"
+                name="email"
+                class="form-control mb-3"
+              />
+              <input
+                type="submit"
+                name="email"
+                class="btn btn-success btn-block"
+                value="Subscribe"
+              />
+            </form>
+            <p>
+              <i class="fa fa-copyright"></i> 2021 BOOK OF RECORD <br />
+              NIGERIA LIMITED. RC 1568766
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-4 col-xl-3 footer-column text-success">
+            <p><a href="#">Projects</a></p>
+            <p><a href="#">Nigeria Books of Record</a></p>
+            <p><a href="#">Reads Campaign Africa</a></p>
+            <p><a href="#">Support</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      let unitPrice = document.getElementById('unit-price');
+      let quantity = document.querySelectorAll('.qty');
+      let total = document.getElementById('total');
+
+      console.log(quantity);
+
+      quantity.forEach((qty) => {
+          
+          
+          qty.oninput=(e)=>{
+              let price = qty.parentElement.previousElementSibling.children[1].textContent
+                let a = qty.parentElement.nextElementSibling
+                a.innerHTML = `<p>${ e.target.value * price}</p>`
+                let total = e.target.value * price
+                console.log(total);
+                total.innerText = `${total}`
+          }
+      });
+
+     
+
+    </script>
+
+    <!-- <script src="./owl-carousel/custom.js"></script> -->
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./owl-carousel/owl.carousel.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>

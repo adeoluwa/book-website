@@ -28,6 +28,10 @@ body{
   display: block;
 }
 
+.latest-album-thumb{
+  margin-bottom: 45px;
+}
+
 .group-icon{
   margin-top: 130px;
 }
@@ -54,11 +58,20 @@ body{
     text-transform: uppercase;
 }
 
+.flex-column .nav-item a{
+  color:#000;
+}
+
+.right-bar-border .btn-outline-dark{
+  margin-bottom: 20px;
+}
+
 .book-title{
   margin:10px 3px;
 }
 
-.book-title a{
+.book-title a,
+.prize a{
   color:#05923F;
   font-weight: bold;
 }
@@ -75,14 +88,349 @@ body{
   font-weight: bold;
 }
 
+
+@media (max-width: 767px) {
+  .latest-album-thumb,
+  .band-member,
+  .single-album {
+    margin-bottom: 25px;
+  }
+}
+
+.page-footer{
+  margin-top: 25px;
+}
+
+
+
+input{
+    width: max-content;
+}
+
+button {
+  display: inline-block;
+  width: 30%; 
+}
+
 .text-info{
   font-weight: bold;
   color:#05923F;
 }
 
+#banner{
+  margin-top: 10px;
+}
+
+#banner .container{
+  background: url('../images/banner.jpg') no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
 #owl-demo{
   margin-top: 30px;
 }
+
+.social-group{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.right-bar-border{
+  border:1px solid rgba(0, 0, 0, 0.2);
+}
+
+.right-bar-border .twitter{
+  background: #18E0F2;
+  border:#18E0F2;
+}
+
+.blog-content h2 {
+    font-size: 32px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.post-meta {
+    margin: 0px;
+        margin-bottom: 0px;
+    padding: 0px;
+        padding-bottom: 0px;
+    margin-bottom: 12px !important;
+    text-align: left;
+    border-bottom: 1px #e5e5e5 solid;
+    padding-bottom: 15px;
+}
+
+.post-meta li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #a7a7a7;
+    text-transform: none;
+    font-size: 13px;
+}
+
+.post-meta li i {
+    padding-right: 7px;
+}
+
+.post-meta li a {
+    margin-right: 5px;
+    color: #50b2fc;
+    font-size: 13px;
+}
+
+.blog-content .btn {
+    padding: 10px 25px 8px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px !important;
+    display: inline-block;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    background: #05923F;
+    border-radius: 0px;
+    border-bottom: 3px #036029 solid;
+}
+
+.blog-wrapper{
+  border:1px solid #C6C2C2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar.blog-side .block.widget_search {
+    padding: 5px 5px;
+}
+
+.sidebar ol, .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar.blog-side .block ul li:first-child {
+    padding-top: 0 !important;
+}
+
+.sidebar.blog-side .block ul li {
+    padding: 8px 0px;
+        padding-top: 8px;
+}
+
+.blog-side .featured-thumb {
+    float: left;
+    margin: 0 12px 5px 0;
+    position: relative;
+}
+
+.sidebar.blog-side .block a {
+    color: #898989;
+}
+
+.blog-side .featured-thumb img {
+    width: 90px;
+    height: 90px;
+}
+
+.blog-side .content-info {
+    width: 100%;
+}
+
+.blog-side .content-info h4 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 0px;
+    margin-bottom: 9px;
+    margin: auto;
+}
+
+.sidebar.blog-side .block a {
+    color: #898989;
+}
+
+.blog-side .post-meta {
+    font-size: 13px;
+    color: #999;
+    margin-top: 5px;
+    border: none;
+}
+
+.post-meta {
+    margin: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    padding: 0px;
+        padding-bottom: 0px;
+    margin-bottom: 5px !important;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.blog-side .post-meta {
+    font-size: 13px;
+    color: #999;
+}
+
+.widget h3{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.widget .widget-content p{
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.widget-link{
+  color:#000;
+}
+
+.widget-link:hover{
+  text-decoration: none;
+  color:#000;
+}
+
+.commentlist {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.commentlist .comment {
+    list-style: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 20px;
+}
+
+.commentlist .avatar {
+    width: 70px;
+    height: 70px;
+    float: left;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.commentlist .comment-text {
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.commentlist .comment {
+    list-style: none;
+}
+
+.ratings {
+    font-size: 11px;
+    line-height: normal;
+    margin: 2px 0;
+}
+
+.ratings .rating-box {
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.rating-box .rating {
+    float: left;
+    height: 9px;
+    background: url(../images/bkg_rating.png) 0 100% repeat-x;
+}
+
+.commentlist .comment-text .meta {
+    margin-bottom: 10px;
+}
+
+.comment-content h3 {
+    color: #333e48;
+    display: block;
+    letter-spacing: normal;
+    line-height: 21px;
+    margin: auto;
+        margin-bottom: auto;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.comment-content p.comment-notes {
+    margin-top: 10px;
+    margin-bottom: 25px !important;
+}
+
+.required {
+    color: #ff0000;
+}
+
+.comment-respond .comment-form label {
+    display: none;
+}
+
+.comment-respond .comment-form label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #222222;
+    display: block;
+}
+
+.comment-respond .comment-form input {
+    padding: 8px 10px;
+    outline: none;
+    color: #999;
+    border: 1px solid #ddd;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+
+.comment-form input[type="text"], .comment-form input[type="email"] {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+input.input-text, select, textarea {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    outline: none;
+    color: #333;
+    border: 1px #ddd solid;
+}
+
+.button-set .bnt-comment {
+    margin-bottom: 10px !important;
+}
+
+.comment-form .bnt-comment {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #121212;
+    letter-spacing: 1px !important;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.rating-box .rating {
+    float: left;
+    height: 9px;
+    background: url(../images/bkg_rating.png) 0 100% repeat-x;
+}
+
 
 
 #owl-demo .item{
